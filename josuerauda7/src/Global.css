@@ -1,6 +1,6 @@
 /*Fuentes Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@400;500&family=Pacifico&family=Pridi&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@1,900&family=Source+Sans+Pro:wght@400;600;900&display=swap');
 *
 {
     margin: 0;
@@ -9,10 +9,10 @@
 
 body
 {
-    background-color: #D9CDBF;
+    background-color: white;
 }
 
-h1
+h1, h2, h3
 {
     font-family: 'Oswald', sans-serif;
 }

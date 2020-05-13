@@ -1,0 +1,37 @@
+.Footer__container
+{
+    background-color: #0C1F26;
+    color: white;
+    
+    display: flex;
+    padding: 1rem 0;
+}
+
+.Footer__logo{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 1px gray;
+    color: white;
+    font-size: 5em;
+    text-decoration: none;
+}
+
+strong
+{
+    font-family: 'Open Sans', sans-serif;
+    align-items: left;
+}
+
+hr
+{
+    background-color: white;
+}
+
+p, a
+{
+    font-weight: lighter;
+}
+
+.Footer__mensaje
+{
+    text-align: right;
+}

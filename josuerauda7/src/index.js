@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Assets
 import 'bootstrap/dist/css/bootstrap.css';
 import './Global.css';
 
-//import pages
-import Blog from './pages/Blog';
-
-const App = <Blog />;
+//Components
+import App from './components/App';
 
 const container = document.getElementById('App');
 
-ReactDOM.render(App, container);
+ReactDOM.render(<App />, container);

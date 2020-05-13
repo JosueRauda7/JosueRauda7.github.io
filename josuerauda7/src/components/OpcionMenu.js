@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 //style
 import './styles/OpcionMenu.css';
@@ -6,9 +7,9 @@ import './styles/OpcionMenu.css';
 class OpcionMenu extends React.Component {
   render() {
     return (
-      <a className="list opcion col-2" href={this.props.url}>
-        <li>{this.props.opcion}</li>
-      </a>
+      <Link className="list opcion col-2" to={this.props.url}>
+        {this.props.opcion}
+      </Link>
     );
   }
 }

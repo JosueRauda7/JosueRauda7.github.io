@@ -1,0 +1,32 @@
+.BlogItem
+{
+    background-color: white;
+}
+
+.BlogItem:hover .BlogItem__imagen
+{
+    filter: brightness(60%);
+    transition-duration: 800ms;
+}
+
+.BlogItem__fecha
+{
+    color: gray;
+}
+
+.BlogItem__imagen
+{
+    width: 100%;
+    max-height: 20rem;
+}
+
+.BlogItem__titulo
+{
+    font-family: 'Oswald';
+    font-weight: bold;
+}
+
+p
+{
+    font-weight: bolder;
+}
